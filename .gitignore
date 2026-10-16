@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data: keep the folder, not the (large, possibly licensed) dataset
+data/*
+!data/README.md
+
+# Training outputs: keep the folder, not generated files
+artifacts/*
+!artifacts/.gitkeep
+
+# Output written when running the notebook from notebooks/
+notebooks/artifacts/
